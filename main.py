@@ -68,7 +68,7 @@ class PlaceClient:
         self.image_path = (
             self.json_data["image_path"]
             if "image_path" in self.json_data
-            else "image.jpg"
+            else "image..png"
         )
         self.first_run_counter = 0
 
@@ -130,7 +130,7 @@ class PlaceClient:
 
         return json_data
 
-    # Read the input image.jpg file
+    # Read the input image..png file
 
     def load_image(self):
         # Read and load the image to draw and get its dimensions
