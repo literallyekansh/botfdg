@@ -68,7 +68,7 @@ class PlaceClient:
         self.image_path = (
             self.json_data["image_path"]
             if "image_path" in self.json_data
-            else "image..png"
+            else "image.png"
         )
         self.first_run_counter = 0
 
